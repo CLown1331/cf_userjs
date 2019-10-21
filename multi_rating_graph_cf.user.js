@@ -5,10 +5,10 @@
 // @license        http://creativecommons.org/publicdomain/zero/1.0/
 // @copyright      yak_ex
 // @version        1.3
-// @include        http://www.codeforces.com/profile/*
-// @include        http://codeforces.com/profile/*
-// @include        http://www.codeforces.ru/profile/*
-// @include        http://codeforces.ru/profile/*
+// @include        https://www.codeforces.com/profile/*
+// @include        https://codeforces.com/profile/*
+// @include        https://www.codeforces.ru/profile/*
+// @include        https://codeforces.ru/profile/*
 // ==/UserScript==
 
 // v1.3  2015/05/05 Sync with site changes.
@@ -41,7 +41,7 @@ function extract_scale(cont)
 function get_account_data(id)
 {
 	var xhr = new XMLHttpRequest();
-	xhr.open('GET', 'http://' + window.location.host + '/profile/' + id, false);
+	xhr.open('GET', 'https://' + window.location.host + '/profile/' + id, false);
 	xhr.send(null);
 	if(xhr.status == 200) {
 		return [extract_data(xhr.responseText), extract_scale(xhr.responseText)];
