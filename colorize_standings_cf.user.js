@@ -50,7 +50,12 @@ function colorize()
 		[ 'Delphi',    'l-delphi',  'background-color: #ffff99 !important; border: dashed #ff6633;' ],
 	// Free Pascal 2
 		[ 'FPC',       'l-fpc',     'background-color: #ffff99 !important;' ],
-
+	
+	// GNU C++17
+		[ [
+		 'GNU C++17',
+		 'GNU C++17 (64)'], 'l-gcpp17',  'background-color: #ccffff !important; border: double #6666ff;' ],
+		
 	// GNU C++11 4.9.2
 		[ [
 		 'GNU C++11',
@@ -71,6 +76,9 @@ function colorize()
 	// Java 6
 		[ 'Java 6',    'l-java6',   'background-color: #ffccff !important;' ],
 
+	// C# DotNet Core
+		[ '.NET Core C#',   'l-coresharp','background-color: #ffcc99 !important;' ],
+		
 	// C# Mono 2.10
 		[ 'Mono C#',   'l-mncsharp','background-color: #ffcc99 !important;' ],
 	// MS C# .Net 4
