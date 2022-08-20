@@ -46,8 +46,9 @@ function colorize()
 	// 2: CSS style
 	// 3: optional, display name in legend. Not specified, the first target language name is used.
 	var spec = [
-	// Delphi 7
-		[ 'Delphi',    'l-delphi',  'background-color: #ffff99 !important; border: dashed #ff6633;' ],
+	// Delphi 7 / Pascal
+		[ ['Delphi', 
+		    'FPC'],    'l-delphi',  'background-color: #ffff99 !important; border: dashed #ff6633;' ],
 	// Free Pascal 2
 		[ 'FPC',       'l-fpc',     'background-color: #ffff99 !important;' ],
 	
@@ -63,20 +64,17 @@ function colorize()
 	// GNU C11 4.9.2
 		[ [
 		  'GNU C11',
-                  'GNU C'],   'l-gcc11',   'background-color: #ccffff !important; border: solid #6666ff;' ],
+		  'GNU C'],   'l-gcc',   'background-color: #ccffff !important; border: solid #6666ff;' ],
 
 	// Microsoft Visual C++ 2010
 		[ 'MS C++',    'l-mscpp',   'background-color: #ccffff !important; border: dashed #6666ff;' ],
 
-	// Java 8
-		[ 'Java 8',    'l-java8',   'background-color: #ffccff !important; border: dashed #ff33ff;' ],
-	// Java 7
-		[ 'Java 7',    'l-java7',   'background-color: #ffccff !important; border: dotted #ff33ff;' ],
-	// Java 6
-		[ 'Java 6',    'l-java6',   'background-color: #ffccff !important;' ],
+	// Java
+		[ ['Java 17', 'Java 11', 'Java 8',
+		'Java 7','Java 6'],    'l-java',   'background-color: #ffccff !important; border: dashed #ff33ff;' ],
 
 	// C# DotNet Core
-		[ '.NET Core C#',   'l-coresharp','background-color: #ffcc99 !important;' ],
+		[ ['.NET Core C#', 'C# 8', 'C# 10'],   'l-coresharp','background-color: #ffcc99 !important;' ],
 		
 	// C# Mono 2.10
 		[ 'Mono C#',   'l-mncsharp','background-color: #ffcc99 !important;' ],
