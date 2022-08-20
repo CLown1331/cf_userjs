@@ -51,24 +51,20 @@ function colorize()
 	// Free Pascal 2
 		[ 'FPC',       'l-fpc',     'background-color: #ffff99 !important;' ],
 	
-	// GNU C++17
+	// GNU C++
 		[ [
-		 'GNU C++17',
-		 'GNU C++17 (64)'], 'l-gcpp17',  'background-color: #ccffff !important; border: double #6666ff;' ],
-		
-	// GNU C++14
-		[ 'GNU C++14', 'l-gcpp14',  'background-color: #ccffff !important; border: double #6666ff;' ],
-		
-	// GNU C++11 4.9.2
-		[ [
+		 'GNU C++',
 		 'GNU C++11',
-		 'GNU C++0x'], 'l-gcpp11',  'background-color: #ccffff !important; border: double #6666ff;' ],
-	// GNU C++ 4.9.2
-		[ 'GNU C++',   'l-gcpp',    'background-color: #ccffff !important;' ],
+		 'GNU C++0x'
+		 'GNU C++14',
+		 'GNU C++17',
+		 'GNU C++17 (64)'], 'l-gcpp',  'background-color: #ccffff !important; border: double #6666ff;' ],
+		
 	// GNU C11 4.9.2
-		[ 'GNU C11',   'l-gcc11',   'background-color: #ccffff !important; border: solid #6666ff;' ],
-	// GNU C 4.9.2
-		[ 'GNU C',     'l-gcc',     'background-color: #ccffff !important; border: dotted #6666ff;' ],
+		[ [
+		  'GNU C11',
+                  'GNU C'],   'l-gcc11',   'background-color: #ccffff !important; border: solid #6666ff;' ],
+
 	// Microsoft Visual C++ 2010
 		[ 'MS C++',    'l-mscpp',   'background-color: #ccffff !important; border: dashed #6666ff;' ],
 
