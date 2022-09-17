@@ -99,7 +99,9 @@ function colorize() {
 		['D', 'l-d', 'background-color: #00ff99 !important;'],
 		// Go 1.2
 		['Go', 'l-go', 'background-color: #33cccc !important;'],
-
+		
+		['Rust 2021', 'l-rust', 'background-color: #33cccc !important; border: dashed #ff33ff;'],
+		
 		// JavaScript V8 3
 		['JavaScript', 'l-js', 'background-color: #ccff99 !important; border: dashed #ff33ff;', 'JS'],
 		// Perl 5.12+
