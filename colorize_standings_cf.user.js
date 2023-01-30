@@ -85,6 +85,12 @@ function colorize() {
 			], 'l-java', 'background-color: #ffccff !important; border: dashed #ff33ff;'
 		],
 
+		// Kotlin
+		[
+			['Kotlin 1.7'
+			], 'l-kotlin', 'background-color: #ffccff !important; border: solid #cc00ff;'
+		],
+
 		// C# DotNet Core
 		[
 			['.NET Core C#', 'C# 8', 'C# 10'], 'l-coresharp', 'background-color: #ffcc99 !important;'
