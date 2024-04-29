@@ -62,6 +62,7 @@ function colorize() {
 				'GNU C++0x',
 				'GNU C++14',
 				'GNU C++17',
+				'C++17 (GCC 7-32)',
 				'GNU C++17 (64)',
 				'GNU C++20 (64)'
 			], 'l-gcpp', 'background-color: #ccffff !important; border: double #6666ff;'
